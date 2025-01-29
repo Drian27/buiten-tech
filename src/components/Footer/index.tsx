@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+          <div className="-mx-4 flex">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Kami adalah software house yang berdiri sejak tahun 2025 kami bergerak di bidang perangkat lunak
                 </p>
                 <div className="flex items-center">
                   <a
@@ -112,15 +111,15 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Layanan Kami
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Website
                     </Link>
                   </li>
                   <li>
@@ -128,15 +127,23 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Mobile Apps
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      System Digital
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Consultan
                     </Link>
                   </li>
                 </ul>
@@ -146,7 +153,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Product
                 </h2>
                 <ul>
                   <li>
@@ -154,7 +161,25 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Photobin.id
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Portfolio
+                </h2>
+                <ul>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Website
                     </Link>
                   </li>
                   <li>
@@ -162,7 +187,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Mobile Apps
                     </Link>
                   </li>
                   <li>
@@ -170,7 +195,41 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      System Digital
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Cerita Kami
+                </h2>
+                <ul>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Portfolio
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Social Media
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Blog
                     </Link>
                   </li>
                 </ul>
@@ -180,7 +239,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Hubungi
                 </h2>
                 <ul>
                   <li>
@@ -188,7 +247,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      +62 896-3823-3061
                     </Link>
                   </li>
                   <li>
@@ -196,7 +255,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Buiten.id
                     </Link>
                   </li>
                   <li>
@@ -204,7 +263,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Admin@Buiten.com
                     </Link>
                   </li>
                 </ul>
@@ -215,24 +274,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
+            ©2025 PT Buiten Technology. Seluruh Hak Cipta.
             </p>
           </div>
         </div>

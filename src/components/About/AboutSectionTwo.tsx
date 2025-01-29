@@ -31,8 +31,9 @@ const AboutSectionTwo = () => {
                   Bug free code
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  At Buiten Technology, we deliver meticulously crafted code to
+                  ensure flawless performance and reliability, empowering your
+                  business to operate with confidence and peace of mind.
                 </p>
               </div>
               <div className="mb-9">
@@ -40,11 +41,13 @@ const AboutSectionTwo = () => {
                   Premier support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Our dedicated team provides unparalleled support, offering
+                  expert guidance and proactive solutions tailored to your
+                  unique challenges, so you can focus on what matters
+                  most—growing your business.
                 </p>
               </div>
-              <div className="mb-1">
+              {/* <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Next.js
                 </h3>
@@ -52,7 +55,7 @@ const AboutSectionTwo = () => {
                   Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
                   consectetur adipiscing elit setim.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

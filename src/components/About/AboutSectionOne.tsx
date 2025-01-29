@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Crafted for Business Solutions."
+                paragraph="At Buiten Technology, we are dedicated to equipping businesses with the expertise to protect their most vital assets. Through engaging discussions and collaborative forums, we guide you in fortifying your applications and driving innovation with confidence."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Tailored to your business needs" />
+                    <List text="Seamless integration with existing workflows" />
+                    <List text="Scalable solutions for future growth" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Robust security for your critical applications" />
+                    <List text="Intuitive and user-friendly interface" />
+                    <List text="Expert support to guide your success" />
                   </div>
                 </div>
               </div>

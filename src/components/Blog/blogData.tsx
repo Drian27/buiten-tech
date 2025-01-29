@@ -8,11 +8,11 @@ const blogData: Blog[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Bayu Faturahman",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Mobile Developer",
     },
-    tags: ["creative"],
+    tags: ["Mobile"],
     publishDate: "2025",
   },
   {
@@ -22,11 +22,11 @@ const blogData: Blog[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Agil Nurdiasyah",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Back-end Developer",
     },
-    tags: ["computer"],
+    tags: ["Data"],
     publishDate: "2025",
   },
   {
@@ -36,11 +36,11 @@ const blogData: Blog[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Haikal",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Fullstack Developer",
     },
-    tags: ["design"],
+    tags: ["FE-BE"],
     publishDate: "2025",
   },
 ];
