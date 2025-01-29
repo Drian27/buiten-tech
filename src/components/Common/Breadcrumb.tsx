@@ -15,10 +15,15 @@ const Breadcrumb = ({
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
                 <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
-                  Blog
+                  About Us
                 </h1>
                 <p className="text-base font-medium leading-relaxed text-body-color">
-                  {description}
+                  Buiten Tech is a forward-thinking technology company dedicated
+                  to providing cutting-edge solutions for businesses and
+                  individuals. Our mission is to bridge the gap between
+                  innovation and practicality, offering seamless digital
+                  experiences that empower our clients to thrive in an
+                  ever-evolving tech landscape.
                 </p>
               </div>
             </div>
