@@ -21,8 +21,7 @@ const BlogSidebarPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  Resources Web Developer & Mobile Apps with Buiten Tech
                 </h1>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -106,71 +105,84 @@ const BlogSidebarPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Explore the Best Resources for Web & Mobile Development with
+                    Buiten Tech We provide a variety of innovative resources and
+                    technologies to help you build outstanding web and mobile
+                    applications. From design to development, we support every
+                    step of your digital journey.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                      {/* <Image
+                      <Image
                         src="/images/blog/blog-details-01.jpg"
                         alt="image"
                         fill
                         className="h-full w-full object-cover object-center"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
+                    At Buiten Tech, we believe that access to the right
+                    resources can turn ideas into reality. Our carefully curated
+                    collection of tools, frameworks, and best practices empowers
+                    developers to create seamless, high-performance digital.
                     <strong className="text-primary dark:text-white">
                       {" "}
-                      malesuada{" "}
+                      experiences{" "}
                     </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
+                    Whether you are designing intuitive user interfaces,
+                    optimizing backend performance, or enhancing security, our
+                    resources are designed to streamline your workflow and
+                    elevate your projects. With a strong commitment to
+                    innovation and excellence,
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
+                    we ensure that every solution we offer aligns with the
+                    latest industry standards.
                     <span className="text-primary underline dark:text-white">
                       {" "}
-                      Amet dictum sit amet justo{" "}
+                      Stay ahead in the ever-evolving tech{" "}
                     </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                    landscape with Buiten Tech—where creativity meets
+                    technology, and possibilities are limitless.
                   </p>
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
+                    Digital Marketing with Buiten Tech
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    In today’s fast-paced digital world, effective marketing is
+                    the key to success. At Buiten Tech, we provide cutting-edge
+                    digital marketing strategies that enhance brand visibility,
+                    drive engagement, and accelerate business growth.
                   </p>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                      Data-Driven Strategies – Harnessing analytics and insights
+                      to optimize marketing performance.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                      Targeted Campaigns – Reaching the right audience with
+                      precision and impact.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                      SEO & Content Excellence – Crafting compelling content
+                      that ranks and resonates.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
+                      Innovative Social Media Approaches – Building strong
+                      connections through powerful storytelling.
                     </li>
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                      At Buiten Tech, we believe in delivering cutting-edge
+                      solutions that drive meaningful change. Our commitment to
+                      excellence ensures that every technology we develop is
+                      designed to optimize performance and enhance user
+                      experience. We specialize in creating impactful digital
+                      strategies that seamlessly integrate with your business
+                      needs, offering tailored solutions for a dynamic digital
+                      world.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -314,9 +326,11 @@ const BlogSidebarPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    From sophisticated software engineering to advanced digital
+                    marketing strategies, we empower businesses to grow,
+                    innovate, and thrive in the competitive tech landscape. At
+                    Buiten Tech, innovation is at the heart of everything we do,
+                    with a focus on delivering scalable and sustainable results.
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
@@ -326,7 +340,7 @@ const BlogSidebarPage = () => {
                       <div className="flex items-center">
                         <TagButton text="Design" />
                         <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        <TagButton text="Business" />
                       </div>
                     </div>
                     <div className="mb-5">
@@ -342,12 +356,12 @@ const BlogSidebarPage = () => {
               </div>
             </div>
             <div className="w-full px-4 lg:w-4/12">
-              <div className="shadow-three dark:bg-gray-dark mb-10 mt-12 rounded-sm bg-white p-6 dark:shadow-none lg:mt-0">
+              <div className="mb-10 mt-12 rounded-sm bg-white p-6 shadow-three dark:bg-gray-dark dark:shadow-none lg:mt-0">
                 <div className="flex items-center justify-between">
                   <input
                     type="text"
                     placeholder="Search here..."
-                    className="border-stroke dark:text-body-color-dark dark:shadow-two mr-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+                    className="border-stroke mr-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                   />
                   <button
                     aria-label="search button"
@@ -368,7 +382,7 @@ const BlogSidebarPage = () => {
                   </button>
                 </div>
               </div>
-              <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+              <div className="mb-10 rounded-sm bg-white shadow-three dark:bg-gray-dark dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                   Related Posts
                 </h3>
@@ -399,7 +413,7 @@ const BlogSidebarPage = () => {
                   </li>
                 </ul>
               </div>
-              <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+              <div className="mb-10 rounded-sm bg-white shadow-three dark:bg-gray-dark dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                   Popular Category
                 </h3>
@@ -409,7 +423,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Tailwind Templates
+                      Mobile Developer
                     </a>
                   </li>
                   <li>
@@ -417,7 +431,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Landing page
+                      Web Developer
                     </a>
                   </li>
                   <li>
@@ -425,7 +439,7 @@ const BlogSidebarPage = () => {
                       href="#0"
                       className="mb-3 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Startup
+                      Fullstack Developer
                     </a>
                   </li>
                   <li>
@@ -446,7 +460,7 @@ const BlogSidebarPage = () => {
                   </li>
                 </ul>
               </div>
-              <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+              <div className="mb-10 rounded-sm bg-white shadow-three dark:bg-gray-dark dark:shadow-none">
                 <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                   Popular Tags
                 </h3>
