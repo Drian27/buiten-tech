@@ -6,7 +6,7 @@ const teamData: Team[] = [
     title: "Bayu Faturahman",
     paragraph:
       "",
-    image: "/images/team/hihi.png",
+    image: "/images/team/bayu.png",
     author: {
       name: "",
       image: "/images/team/bayufaturahman.png",
