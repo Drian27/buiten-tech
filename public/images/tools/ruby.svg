@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="800px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Abstract Geometric Shape</title>
+  <defs>
+    <linearGradient id="grad1" x1="25.0863" y1="30.1825" x2="20.0019" y2="21.2307" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7655"/>
+      <stop offset="0.41" stop-color="#E42B1E"/>
+      <stop offset="0.99" stop-color="#990000"/>
+    </linearGradient>
+  </defs>
+
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M22.5941 19.8407L8.8916 27.9998L26.6338 26.7925L28.0003 8.85254L22.5941 19.8407Z"
+    fill="url(#grad1)" />
+  
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M26.6631 26.7806L25.1381 16.2261L20.9844 21.7262L26.6631 26.7806Z"
+    fill="#871101" />
+  
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M26.6836 26.7803L15.5117 25.9009L8.95117 27.9769L26.6836 26.7803Z"
+    fill="#911209" />
+  
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M8.96674 27.9796L11.7576 18.811L5.61621 20.1279L8.96674 27.9796Z"
+    fill="#A60003" />
+
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M27.4176 11.8117L20.4706 6.12207L18.5361 12.3936L27.4176 11.8117Z"
+    fill="#C82410" />
+  
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M24.1684 4.09336L20.0826 6.35755L17.5049 4.06299L24.1684 4.09336Z"
+    fill="#BF0905" />
+  
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M4 23.2031L5.7116 20.0729L4.32706 16.3438L4 23.2031Z"
+    fill="#BF190B" />
+  
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M4.23535 16.2259L5.62838 20.1883L11.6814 18.8265L18.592 12.3862L20.5422 6.17431L17.4714 4L12.2506 5.95931C10.6057 7.49347 7.41387 10.529 7.29879 10.5861C7.18493 10.6444 5.19109 14.4233 4.23535 16.2259Z"
+    fill="white" />
+  
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M9.12619 9.10774C12.6911 5.56325 17.2869 3.46911 19.0506 5.2535C20.8132 7.03789 18.944 11.3744 15.3791 14.9176C11.8141 18.4609 7.27528 20.6705 5.5128 18.8861C3.74911 17.1029 5.56126 12.651 9.12619 9.10774Z"
+    fill="url(#grad1)" />
+
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M18.6172 12.3826C20.7515 13.6981 25.0531 16.3401 25.1403 16.3887C25.2758 16.4652 26.9948 13.4819 27.3849 11.7959L18.6172 12.3826Z"
+    fill="#A80D00" />
+
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M4 23.162C4.13082 27.8812 7.52617 27.9515 8.97249 27.9929L5.63166 20.1689L4 23.162Z"
+    fill="#9E1209" />
+
+</svg>

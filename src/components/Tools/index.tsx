@@ -24,14 +24,21 @@ export default function Tools() {
           <PIcon PIcon="vuejs.svg" Language="" />
           <PIcon PIcon="laravel.svg" Language="" />
           <PIcon PIcon="nuxtjs.svg" Language="" />
-          <PIcon PIcon="redux.svg" Language="" />
           <PIcon PIcon="tailwind.svg" Language="" />
           <PIcon PIcon="vite.svg" Language="" />
           <PIcon PIcon="bootstrap.svg" Language="" />
-          <PIcon PIcon="vercel.svg" Language="" />
           <PIcon PIcon="MUI.svg" Language="" />
-          <PIcon PIcon="git.svg" Language="" />
           <PIcon PIcon="figma.svg" Language="" />
+          <PIcon PIcon="typescript.svg" Language="" />
+          <PIcon PIcon="mongo.svg" Language="" />
+          <PIcon PIcon="angular.svg" Language="" />
+          <PIcon PIcon="fastapi.svg" Language="" />
+          <PIcon PIcon="ruby.svg" Language="" />
+          <PIcon PIcon="unity.svg" Language="" />
+          <PIcon PIcon="nest.svg" Language="" />
+          <PIcon PIcon="unreal.svg" Language="" />
+          <PIcon PIcon="dart.svg" Language="" />
+          <PIcon PIcon="dotnet.svg" Language="" />
         </div>
       </div>
     </div>

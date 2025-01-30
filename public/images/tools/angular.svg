@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <title>Angular Logo</title>
+  <path d="M16 2L3 7L5 24L16 30L27 24L29 7L16 2Z" fill="#DD0031"/>
+  <path d="M16 2V30L27 24L29 7L16 2Z" fill="#C3002F"/>
+  <path d="M16 5.094L7.873 23.364h3.03l1.634-4.088h6.898l1.634 4.088h3.03L16 5.094ZM18.374 16.756h-4.748L16 11.03l2.374 5.726Z" fill="white"/>
+</svg>
