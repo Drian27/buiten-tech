@@ -1,4 +1,4 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
+import TeamBlog from "@/components/Blog/teamBlog";
 import teamData from "@/components/Blog/teamData";
 import Teamcrumb from "@/components/Common/Teamcrumb";
 
@@ -26,7 +26,7 @@ const Team = () => {
                 key={blog.id}
                 className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
               >
-                <SingleBlog blog={blog} />
+                <TeamBlog team={blog} />
               </div>
             ))}
           </div>

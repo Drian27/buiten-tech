@@ -1,47 +1,50 @@
-import { Blog } from "@/types/blog";
+import { Team } from "@/types/team";
 
-const blogData: Blog[] = [
+const teamData: Team[] = [
   {
     id: 1,
     title: "Bayu Faturahman",
     paragraph:
       "",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/team/hihi.png",
     author: {
       name: "",
-      image: "/images/blog/author-01.png",
+      image: "/images/team/bayufaturahman.png",
       designation: "",
     },
     tags: [""],
-    publishDate: "",
+    publishDate: "Chief Executive Officer",
+    linkedin: "https://www.linkedin.com/in/bayu-faturahman-8906a3196/",
   },
   {
     id: 2,
-    title: "Agil Nurdiasyah",
+    title: "Adrian Lim",
     paragraph:
       "",
-    image: "/images/blog/blog-02.jpg",
+    image: "/images/team/drian.png",
     author: {
       name: "",
       image: "/images/blog/author-02.png",
       designation: "",
     },
     tags: [""],
-    publishDate: "",
+    publishDate: "Front-end Develepor",
+    linkedin: "https://www.linkedin.com/in/adrian-lim-740043325/",
   },
   {
     id: 3,
-    title: "Haikal",
+    title: "Agil Nurdiansah",
     paragraph:
       "",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/team/agil.png",
     author: {
       name: "",
       image: "/images/blog/author-03.png",
       designation: "",
     },
     tags: [""],
-    publishDate: "",
+    publishDate: "Fullstack Developer",
+    linkedin: "https://www.linkedin.com/in/agil-nurdiansah-275276219/",
   },
 ];
-export default blogData;
+export default teamData;
