@@ -11,7 +11,7 @@ import Video from "@/components/Visi-Misi";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Buiten",
+  title: "Buiten - Home",
   description: "This is Home for Buiten Technology",
   // other metadata
 };
