@@ -1,7 +1,11 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
-import { Metadata } from "next";
+
+export interface Metadata {
+  title: string;
+  description: string;
+}
 
 export const Metadata = {
   title: "Buiten - Contact",
@@ -14,7 +18,7 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contact"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
         breadcrumbLinks={[
           { name: "Home", url: "/" },
           { name: "Contact", url: "/contact" },
