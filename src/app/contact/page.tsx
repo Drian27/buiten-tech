@@ -1,16 +1,10 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
-
-export interface Metadata {
-  title: string;
-  description: string;
-}
-
-export const Metadata = {
+// ✅ Use "metadata" for Next.js Page Metadata
+export const metadata = {
   title: "Buiten - Contact",
   description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
 };
 
 const ContactPage = () => {
