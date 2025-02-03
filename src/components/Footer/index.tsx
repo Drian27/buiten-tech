@@ -16,7 +16,7 @@ const Footer = () => {
             <p className="text-base text-body-color dark:text-body-color-dark">
               Kami adalah software house yang berdiri sejak tahun 2025 dan bergerak di bidang perangkat lunak.
             </p>
-            <div className="flex space-x-4 mt-6">
+            <div className="flex space-x-4 mt-6 mb-5">
               <a href="/" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12.1 10.4939V7.42705C12.1 6.23984 13.085 5.27741 14.3 5.27741H16.5V2.05296L13.5135 1.84452C10.9664 1.66676 8.8 3.63781 8.8 6.13287V10.4939H5.5V13.7183H8.8V20.1667H12.1V13.7183H15.4L16.5 10.4939H12.1Z"/>
