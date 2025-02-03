@@ -26,32 +26,51 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
+    id: 7,
+    title: "Service",
+    newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Mobile Devolopment",
+        path: "/",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Web Devolopment",
+        path: "/",
+        newTab: false,
+      },
+    ],
+  },
+  {
     id: 5,
     title: "Team",
     path: "/team",
     newTab: false,
   },
-  {
-    id: 6,
-    title: "Contact",
-    path: "/contact",
-    newTab: false,
-  },
+  // {
+  //   id: 6,
+  //   title: "Contact",
+  //   path: "/contact",
+  //   newTab: false,
+  // },
   // {
   //   id: 7,
-  //   title: "Pages",
+  //   title: "Service",
   //   newTab: false,
   //   submenu: [
   //     {
   //       id: 41,
-  //       title: "About Page",
-  //       path: "/about",
+  //       title: "Mobile Devolopment",
+  //       path: "/",
   //       newTab: false,
   //     },
   //     {
   //       id: 42,
-  //       title: "Contact Page",
-  //       path: "/contact",
+  //       title: "Web Devolopment",
+  //       path: "/",
   //       newTab: false,
   //     },
   //     {

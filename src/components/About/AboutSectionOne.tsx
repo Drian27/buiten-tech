@@ -30,7 +30,7 @@ const AboutSectionOne = () => {
               />
 
               <div
-                className="mb-12 max-w-[570px] lg:mb-0"
+                className="mb-12 max-w-[570px] lg:mb-0 mt-16"
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
