@@ -6,10 +6,10 @@ const PIcon = (props) => {
 
   return (
     <div
-      className="flex h-auto w-auto flex-col items-center justify-center rounded-xl p-5"
+      className="flex h-[100px] w-[100px] flex-col items-center justify-center rounded-xl p-5 bg-primary bg-opacity-10 text-primary"
       id="CardIcon"
     >
-      <img src={imagePath} alt={Language} className="h-16 w-16 md:h-20 md:w-20" />
+      <img src={imagePath} alt={Language} className="w-full h-auto" />
       <div className="pt-2 text-center font-bold text-[#ced4d7]" id="TextIcon">
         {Language}
       </div>

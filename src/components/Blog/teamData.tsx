@@ -43,7 +43,7 @@ const teamData: Team[] = [
       designation: "",
     },
     tags: [""],
-    publishDate: "Fullstack Developer",
+    publishDate: "Backend Developer",
     linkedin: "https://www.linkedin.com/in/agil-nurdiansah-275276219/",
   },
 ];

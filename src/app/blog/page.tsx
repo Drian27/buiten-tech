@@ -13,14 +13,18 @@ export const metadata: Metadata = {
 const Blog = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Blog Grid"
+    <Breadcrumb
+        pageName="Blog"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        breadcrumbLinks={[
+          { name: "Home", url: "/" },
+          { name: "Blog", url: "/blog" },
+        ]}
       />
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
+          {/* <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
               <div
                 key={blog.id}
@@ -29,7 +33,7 @@ const Blog = () => {
                 <SingleBlog blog={blog} />
               </div>
             ))}
-          </div>
+          </div> */}
 
           <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
             <div className="w-full px-4">
