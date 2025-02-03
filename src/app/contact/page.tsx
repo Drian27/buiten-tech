@@ -1,8 +1,8 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
+import type { Metadata } from "next";
 
-// ✅ Use "metadata" for Next.js Page Metadata
-export const metadata = {
+export const metadata: Metadata = {
   title: "Buiten - Contact",
   description: "This is Contact Page for Startup Nextjs Template",
 };
