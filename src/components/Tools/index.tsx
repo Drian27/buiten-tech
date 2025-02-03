@@ -8,7 +8,7 @@ export default function Tools() {
         Technology & Tools That We Use
       </h2>
       <div className="flex items-center justify-center overflow-hidden">
-        <div className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-5">
+        <div className="container m-auto mt-[50px] grid grid-cols-3 place-content-center gap-x-[20px] gap-y-[26px] lg:grid-cols-8 xl:grid-cols-9">
           <PIcon PIcon="reactjs.svg" Language="" />
           <PIcon PIcon="android.svg" Language="" />
           <PIcon PIcon="java.svg" Language="" />

@@ -5,7 +5,7 @@ import Teamcrumb from "@/components/Common/Teamcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Team",
+  title: "Buiten - Team",
   description: "This is Team Page",
   // other metadata
 };

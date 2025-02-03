@@ -10,6 +10,7 @@ const VisiMisi = () => {
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
+      <div className="grid grid-cols-1 place-content-center gap-10 lg:grid-cols-2 xl:grid-cols-2">
         {/* Bagian Visi */}
         <SectionTitle
           title="Visi"
@@ -29,6 +30,7 @@ const VisiMisi = () => {
           center
           mb="80px"
         />
+      </div>
 
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">

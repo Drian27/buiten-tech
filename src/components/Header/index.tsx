@@ -48,31 +48,24 @@ const Header = () => {
         }`}
       >
         <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+          <div className="relative w-full flex items-center justify-between">
+            <div className="logo-nav">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                  sticky ? "py-5 lg:py-2" : ""
                 } `}
               >
-                {/* <Image
-                  src="/images/logo/logo.png"
+                <Image
+                  src="/images/logo/logo-buiten.png"
                   alt="logo"
                   width={140}
                   height={30}
-                  className="w-full dark:hidden"
-                /> */}
-                {/* <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                /> */}
+                  className=""
+                />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex items-center">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -158,12 +151,12 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+            </div>
+            <div className="flex items-center pr-16 lg:pr-0">
                 <div>
                   <ThemeToggler />
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </header>
