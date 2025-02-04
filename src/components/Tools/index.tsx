@@ -4,10 +4,10 @@ import PIcon from "./CardIcon";
 export default function Tools() {
   return (
     <div className="container mx-auto py-8">
-      <h2 className="text-center mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+      <h2 className="text-center mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl md:leading-tight lg:mt-8 mt-3">
         Technology & Tools That We Use
       </h2>
-      <div className="flex items-center justify-center overflow-hidden">
+      <div className="flex items-center justify-center overflow-hidden mb-14">
         <div className="container m-auto mt-[50px] grid grid-cols-3 place-content-center gap-x-[20px] gap-y-[26px] lg:grid-cols-8 xl:grid-cols-9">
           <PIcon PIcon="reactjs.svg" Language="" />
           <PIcon PIcon="android.svg" Language="" />

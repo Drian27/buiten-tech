@@ -2,8 +2,9 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
-      <div className="container">
+    // <section className="py-16 md:py-20 lg:py-28">
+    <section className="">
+      {/* <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div
@@ -47,7 +48,7 @@ const AboutSectionTwo = () => {
                   most—growing your business.
                 </p>
               </div>
-              {/* <div className="mb-1">
+              <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Next.js
                 </h3>
@@ -55,11 +56,11 @@ const AboutSectionTwo = () => {
                   Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
                   consectetur adipiscing elit setim.
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
