@@ -25,22 +25,23 @@ const SinglePortfolio = ({ portfolio }: { portfolio: Portfolio }) => {
           <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
-          <div className="flex items-center">
-            <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
-              <div className="mr-4">
-                <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  {/* <Image src={author.image} alt="author" fill /> */}
-                </div>
-              </div>
+          <div className="w-full text-center flex items-center">
               <div className="w-full">
-                <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
+                <Link href="/" className="rounded-xl p-5 bg-primary bg-opacity-10 text-primary text-sm">Read More</Link>
+                {/* <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
                   {author.name}
-                </h4>
+                </h4> */}
               </div>
             </div>
-            <div className="inline-block">
+            <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
+              {/* <div className="mr-4">
+                <div className="relative h-10 w-10 overflow-hidden rounded-full">
+                  <Image src={author.image} alt="author" fill />
+                </div>
+              </div> */}
+            {/* <div className="inline-block">
               <p className="text-xs text-body-color">{publishDate}</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
