@@ -6,7 +6,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
     <>
     <div className="w-full h-full lg:h-[300px] flex items-center justify-center text-center rounded-md bg-primary bg-opacity-10 text-primary">
       <div className="wow fadeInUp" data-wow-delay=".15s">
-        <div className="p-8 sm:p-11 lg:p-4 xl:p-2 mb-8 lg:mt-11 mt-10">
+        <div data-aos="zoom-in" className="p-8 sm:p-11 lg:p-4 xl:p-2 mb-8 lg:mt-11 mt-10">
           <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
             {title}
           </h3>

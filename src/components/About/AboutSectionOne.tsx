@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="w-full h-auto grid grid-cols-1 place-content-center justify-center gap-5 mb-10 flex-wrap items-center">
-            <h1 className="mb-5 text-sm font-bold leading-tight text-center text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl">
+            <h1 data-aos="fade-up" className="mb-5 text-sm font-bold leading-tight text-center text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl">
               Our Featured Portfolio
             </h1>
           </div>
@@ -32,7 +32,8 @@ const AboutSectionOne = () => {
             {portfolioData.map((portfolio) => (
               <div
                 key={portfolio.id}
-                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
+                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3 mb-10"
+                data-aos="zoom-in" data-aos-delay="600"
               >
                 <SinglePortfolio portfolio={portfolio} />
               </div>

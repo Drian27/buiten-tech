@@ -11,10 +11,10 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-5xl md:leading-tight">
+                <h1 data-aos="fade-up" className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-5xl md:leading-tight">
                   Build Together With Buiten Tech
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-[20px]">
+                <p data-aos="zoom-in" className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-[20px]">
                   Buiten Technology is a cutting-edge technology solutions
                   provider dedicated to empowering businesses with innovative
                   tools and services. Our comprehensive offerings include

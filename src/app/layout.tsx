@@ -1,5 +1,8 @@
 "use client";
 
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -14,6 +17,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Durasi animasi dalam milidetik
+      once: true, // Animasi hanya berjalan sekali saat masuk viewport
+      // delay: 300, // Delay sebelum animasi mulai
+      // easing: 'ease-in-out', // Efek easing animasi
+      // once: false, // Animasi bisa diputar berkali-kali saat scroll
+    });
+  }, []);
+
   return (
     <html suppressHydrationWarning lang="en">
       {/*

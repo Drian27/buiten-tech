@@ -13,13 +13,13 @@ const VisiMisi = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-12">
       <div className="container">
       <div className="grid grid-cols-1 place-content-center gap-5 mb-10">
-        <h1 className="mb-5 text-sm font-bold leading-tight text-center text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl">
+        <h1 data-aos="fade-up" className="mb-5 text-sm font-bold leading-tight text-center text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl">
           Inspiring Innovation, Building a Digital Future
         </h1>
       </div>
         <div className="grid grid-cols-1 place-content-center gap-5 lg:grid-cols-2 xl:grid-cols-3 mt-3">
           {/* Bagian Visi */}
-          <div className="relative z-10 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11 mb-8">
+          <div data-aos="zoom-in" data-aos-delay="300" className="relative z-10 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11 mb-8">
             <SectionTitleVisiMisi
               title="Our Vision"
               paragraph="To lead the way in advancing inclusive technology, empowering
@@ -248,7 +248,7 @@ const VisiMisi = () => {
           </div>
 
           {/* Bagian Misi */}
-          <div className="relative z-10 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11 mb-8">
+          <div data-aos="zoom-in" data-aos-delay="500" className="relative z-10 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11 mb-8">
             <SectionTitleVisiMisi
               title="Our Mission"
               paragraph="Empowering all sectors with equitable access to technology-driven
@@ -477,7 +477,7 @@ const VisiMisi = () => {
           </div>
 
           {/* Bagian Our Goals */}
-          <div className="relative z-10 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11 mb-8">
+          <div data-aos="zoom-in" data-aos-delay="700" className="relative z-10 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11 mb-8">
             <SectionTitleVisiMisi
               title="Our Goals"
               paragraph="Help expand the reach of MSMEs and other business actors so that they can reach consumers/buyers/clients who can help and realize the economy."

@@ -7,7 +7,7 @@ const SectionTitleVisiMisi = ({
 }) => {
   return (
     <div
-      className={`w-full ${center ? "mx-auto text-center" : ""} rounded-xl w-full h-[200px]`}
+    className={`w-full ${center ? "mx-auto text-center" : ""} rounded-xl w-full h-[200px]`}
     >
       <h2 className="mb-4 text-2xl font-bold !leading-tight text-black dark:text-white sm:text-2xl md:text-3xl">
         {title}

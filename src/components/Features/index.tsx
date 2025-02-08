@@ -21,7 +21,7 @@ const Features = () => {
 
           <div className="img-content-hero">
             <div className="content-frame-img-1">
-                <div className="hexagon-image bg-primary bg-opacity-50">
+                <div data-aos="zoom-in" data-aos-delay="300" className="hexagon-image bg-primary bg-opacity-50">
                   <img className="img-service-cs-1" src="/images/icon-service/mobile.png" alt=""></img>
                 </div>
             </div>
@@ -29,7 +29,7 @@ const Features = () => {
 
           <div className="img-content-hero">
             <div className="content-frame-img-2">
-                <div className="hexagon-image bg-primary bg-opacity-50">
+                <div data-aos="zoom-in" data-aos-delay="600" className="hexagon-image bg-primary bg-opacity-50">
                   <img className="img-service-cs-1" src="/images/icon-service/web.png" alt=""></img>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const Features = () => {
 
           <div className="img-content-hero">
             <div className="content-frame-img-3">
-                <div className="hexagon-image bg-primary bg-opacity-50">
+                <div data-aos="zoom-in" data-aos-delay="900" className="hexagon-image bg-primary bg-opacity-50">
                   <img className="img-service-cs-1" src="/images/icon-service/design.png" alt=""></img>
                 </div>
             </div>

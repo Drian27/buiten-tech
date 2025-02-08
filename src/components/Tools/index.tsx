@@ -4,7 +4,7 @@ import PIcon from "./CardIcon";
 export default function Tools() {
   return (
     <div className="container mx-auto py-8">
-      <h2 className="text-center mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl md:leading-tight lg:mt-8 mt-3">
+      <h2 data-aos="zoom-in" className="text-center mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl md:leading-tight lg:mt-8 mt-3">
         Technology & Tools That We Use
       </h2>
       <div className="flex items-center justify-center overflow-hidden mb-14">
