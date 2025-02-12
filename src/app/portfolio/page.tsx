@@ -1,8 +1,7 @@
+import { Metadata } from "next";
 import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
 import portfolioData from "@/components/Portfolio/portfolioData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Buiten - Portfolio",
@@ -12,17 +11,24 @@ export const metadata: Metadata = {
 const Portfolio = () => {
   return (
     <>
-      <Breadcrumb
+      {/* <Breadcrumb
         pageName="Portfolio"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Client trust is key for us in collaborating and realizing their initiatives."
         breadcrumbLinks={[
           { name: "Home", url: "/" },
           { name: "Portfolio", url: "/portfolio" },
         ]}
-      />
+      /> */}
 
-      <section className="pb-[120px] pt-[120px]">
-        <div className="container">
+      <section className="pb-[120px] pt-[150px]">
+        <div className="container mb-20">
+          <div className="w-full h-full grid grid-cols-1 text-center justify-center mb-16">
+            <div className="">
+              <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Portfolio</h1>
+              <p className="text-base font-medium leading-relaxed text-body-color">Client trust is key for us in collaborating and realizing their initiatives.</p>
+            </div>
+          </div>
+
           <div className="-mx-4 flex flex-wrap justify-center mb-10">
             {portfolioData.map((portfolio) => (
               <div
@@ -33,7 +39,6 @@ const Portfolio = () => {
               </div>
             ))}
           </div>
-
           <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
             <div className="w-full px-4">
               <ul className="flex items-center justify-center pt-8">

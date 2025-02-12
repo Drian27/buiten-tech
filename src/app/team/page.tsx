@@ -1,8 +1,9 @@
+import { Metadata } from "next";
 import TeamBlog from "@/components/Blog/teamBlog";
 import teamData from "@/components/Blog/teamData";
 import Teamcrumb from "@/components/Common/Teamcrumb";
+import CardParallax from "@/components/ParallaxCards/CardParallax";
 
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Buiten - Team",
@@ -89,6 +90,12 @@ const Team = () => {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="w-full h-full grid grid-cols-1 text-center justify-center">
+            <CardParallax />
           </div>
         </div>
       </section>
