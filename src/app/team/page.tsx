@@ -95,7 +95,7 @@ const Team = () => {
 
         <div className="container">
           <div className="w-full h-full grid grid-cols-1 text-center justify-center">
-            <CardParallax />
+            {/* <CardParallax /> */}
           </div>
         </div>
       </section>

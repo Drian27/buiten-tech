@@ -61,5 +61,20 @@ const teamData: Team[] = [
     publishDate: "Backend Developer",
     linkedin: "https://www.linkedin.com/in/agil-nurdiansah-275276219/",
   },
+  {
+    id: 4,
+    title: "Handika Djati Dharma",
+    paragraph:
+      "",
+    image: "/images/team/dika.jpeg",
+    author: {
+      name: "",
+      image: "/images/blog/author-03.png",
+      designation: "",
+    },
+    tags: [""],
+    publishDate: "Backend Developer",
+    linkedin: "https://www.linkedin.com/in/agil-nurdiansah-275276219/",
+  },
 ];
 export default teamData;
