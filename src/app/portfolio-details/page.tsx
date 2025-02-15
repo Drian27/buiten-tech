@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import portfolioData from "@/components/Portfolio/portfolioData";
 import Image from "next/image";
 
+
 // const searchParams = useSearchParams();export const metadata: Metadata = {
 //   title: "Buiten - Portfolio Details",
 //   description: "This is Portfolio Details Page for Startup Nextjs Template",
