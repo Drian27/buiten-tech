@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SinglePortfolio = ({ portfolio }: { portfolio: Portfolio }) => {
-  const { title, image, paragraph, author, tags, publishDate } = portfolio;
+  const { title, image, paragraph, name, company, category, type, tech_stack, publishDate } = portfolio;
   return (
     <>
       <div className="group relative overflow-hidden bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark rounded-lg">
@@ -26,7 +26,10 @@ const SinglePortfolio = ({ portfolio }: { portfolio: Portfolio }) => {
             </Link>
           </h3>
           <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-            {paragraph}
+            {paragraph.length > 200
+              ? `${paragraph.slice(0, 200)}...`
+              : paragraph
+            }
           </p>
           <div className="w-full text-center flex items-center">
               <div className="w-full">

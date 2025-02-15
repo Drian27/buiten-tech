@@ -4,6 +4,7 @@
 import { useSearchParams } from "next/navigation";
 import portfolioData from "@/components/Portfolio/portfolioData";
 import Image from "next/image";
+import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
 
 // const searchParams = useSearchParams();export const metadata: Metadata = {
 //   title: "Buiten - Portfolio Details",
@@ -125,7 +126,7 @@ export default function PortfolioDetailsPage () {
                         src={portfolio.image} 
                         alt={portfolio.title}
                         fill
-                        className="object-center "
+                        className="object-center"
                       />
                     </div>
                   </div>
@@ -137,25 +138,45 @@ export default function PortfolioDetailsPage () {
                       {portfolio.paragraph}
                     </p>
                   </div>
-                  <div className="rounded-xl p-5 bg-primary bg-opacity-10 text-primary aos-init aos-animate mb-10" data-aos="fade-up" data-aos-delay="400">
+                  <div
+                    className="rounded-xl p-5 bg-primary bg-opacity-10 text-primary aos-init aos-animate mb-10"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
                     <h3 className="text-center mb-3 text-3xl font-bold leading-tight text-black dark:text-white lg:text-2xl sm:leading-tight">
                       Project Information
                     </h3>
-                    <p className="mb-3 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      Name :
-                    </p>
-                    <p className="mb-3 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      Company :
-                    </p>
-                    <p className="mb-3 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      Category :
-                    </p>
-                    <p className="mb-3 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      Type :
-                    </p>
-                    <p className="mb-3 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      Tech Stack :                    :
-                    </p>
+
+                    <div className="grid grid-cols-3 gap-2 text-white text-base font-medium sm:text-lg lg:text-base xl:text-lg">
+                      <p>Name</p>
+                      <p className="col-span-2">: {portfolio.name}</p>
+
+                      <p>Company</p>
+                      <p className="col-span-2">: {portfolio.company}</p>
+
+                      <p>Category</p>
+                      <p className="col-span-2">: {portfolio.category}</p>
+
+                      <p>Type</p>
+                      <p className="col-span-2">: {portfolio.type}</p>
+
+                      <p>Tech Stack</p>
+                      <div className="col-span-2 flex items-center">
+                        <span className="mr-2">:</span>
+                          {portfolio.tech_stack.map((tech, index) => (
+                            <div className="flex h-[70px] w-[70px] flex-col items-center justify-center rounded-xl p-2 bg-primary bg-opacity-10 text-primary aos-init aos-animate mx-2">
+                              <Image
+                                key={index}
+                                src={tech}
+                                alt={`Tech Stack ${index + 1}`}
+                                width={100}
+                                height={100}
+                                className="img-detail-portfolio"
+                              />
+                            </div>
+                          ))}
+                      </div>
+                    </div>
                   </div>
                   {/* <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Semper auctor neque vitae tempus quam pellentesque nec.
@@ -178,6 +199,17 @@ export default function PortfolioDetailsPage () {
               </div>
             </div>
           </div>
+
+          {/* <div className="-mx-4 flex flex-wrap justify-center mb-10">
+            {portfolioData.map((portfolio) => (
+              <div
+                key={portfolio.id}
+                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3 mb-10"
+              >
+                <SinglePortfolio portfolio={portfolio} />
+              </div>
+            ))}
+          </div> */}
         </div>
       </section>
     </>
