@@ -4,7 +4,7 @@
 import { useSearchParams } from "next/navigation";
 import portfolioData from "@/components/Portfolio/portfolioData";
 import Image from "next/image";
-
+import { Suspense } from "react";
 
 // const searchParams = useSearchParams();export const metadata: Metadata = {
 //   title: "Buiten - Portfolio Details",
@@ -12,7 +12,7 @@ import Image from "next/image";
 //   // other metadata
 // };
 
-export default function PortfolioDetailsPage() {
+function PortfolioDetails() {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
 
@@ -165,19 +165,19 @@ export default function PortfolioDetailsPage() {
                       <div className="col-span-2 flex items-center">
                         <span className="mr-2">:</span>
                         {portfolio.tech_stack.map((tech, index) => (
-                        <div
-                          key={index} // Tambahkan key di sini
-                          className="aos-init aos-animate mx-2 flex h-[70px] w-[70px] flex-col items-center justify-center rounded-xl bg-primary bg-opacity-10 p-2 text-primary"
-                        >
-                          <Image
-                            src={tech}
-                            alt={`Tech Stack ${index + 1}`}
-                            width={100}
-                            height={100}
-                            className="img-detail-portfolio"
-                          />
-                        </div>
-                      ))}
+                          <div
+                            key={index} // Tambahkan key di sini
+                            className="aos-init aos-animate mx-2 flex h-[70px] w-[70px] flex-col items-center justify-center rounded-xl bg-primary bg-opacity-10 p-2 text-primary"
+                          >
+                            <Image
+                              src={tech}
+                              alt={`Tech Stack ${index + 1}`}
+                              width={100}
+                              height={100}
+                              className="img-detail-portfolio"
+                            />
+                          </div>
+                        ))}
                       </div>
                     </div>
                   </div>
@@ -216,5 +216,13 @@ export default function PortfolioDetailsPage() {
         </div>
       </section>
     </>
+  );
+}
+
+export default function PortfolioDetailsPage() {
+  return (
+    <Suspense fallback={<p>Loading...</p>}>
+      <PortfolioDetails />
+    </Suspense>
   );
 }
