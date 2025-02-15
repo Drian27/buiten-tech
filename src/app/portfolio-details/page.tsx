@@ -1,16 +1,15 @@
 "use client";
 
-import { Metadata } from "next";
+// import { Metadata } from "next";
 import { useSearchParams } from "next/navigation";
 import portfolioData from "@/components/Portfolio/portfolioData";
 import Image from "next/image";
 
-const searchParams = useSearchParams();
-export const metadata: Metadata = {
-  title: "Buiten - Portfolio Details",
-  description: "This is Portfolio Details Page for Startup Nextjs Template",
-  // other metadata
-};
+// const searchParams = useSearchParams();export const metadata: Metadata = {
+//   title: "Buiten - Portfolio Details",
+//   description: "This is Portfolio Details Page for Startup Nextjs Template",
+//   // other metadata
+// };
 
 export default function PortfolioDetailsPage() {
   const searchParams = useSearchParams();
@@ -42,10 +41,6 @@ export default function PortfolioDetailsPage() {
                             alt="author"
                             width={40}
                             height={40}
-                            onError={(e) => {
-                              e.currentTarget.src =
-                                "/images/default-avatar.png";
-                            }}
                           />
                         </div>
                       </div>
