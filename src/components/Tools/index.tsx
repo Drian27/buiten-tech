@@ -12,6 +12,7 @@ export default function Tools() {
           <PIcon PIcon="reactjs.svg" Language="" />
           <PIcon PIcon="android.svg" Language="" />
           <PIcon PIcon="java.svg" Language="" />
+          <PIcon PIcon="spring-boot.svg" Language="" />
           <PIcon PIcon="flutter.svg" Language="" />
           <PIcon PIcon="swift.svg" Language="" />
           <PIcon PIcon="kotlin.svg" Language="" />
