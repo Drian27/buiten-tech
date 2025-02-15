@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const PIcon = (props) => {
   const PIconFile = props.PIcon; 
   const Language = props.Language;
@@ -10,7 +12,7 @@ const PIcon = (props) => {
       id="CardIcon"
       data-aos="zoom-in" data-aos-delay="400"
     >
-      <img src={imagePath} alt={Language} className="w-full h-auto" />
+      <Image src={imagePath} alt={Language} fill className="w-full h-auto" />
       <div className="pt-2 text-center font-bold text-[#ced4d7]" id="TextIcon">
         {Language}
       </div>

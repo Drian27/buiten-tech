@@ -4,7 +4,6 @@
 import { useSearchParams } from "next/navigation";
 import portfolioData from "@/components/Portfolio/portfolioData";
 import Image from "next/image";
-import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
 
 // const searchParams = useSearchParams();export const metadata: Metadata = {
 //   title: "Buiten - Portfolio Details",
