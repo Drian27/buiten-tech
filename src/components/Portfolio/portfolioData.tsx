@@ -24,7 +24,7 @@ const portfolioData: Portfolio[] = [
     company: "PT 2",
     category: "Mobile App",
     type: "tes",
-    tech_stack: ["/images/tools/java.svg", "/images/tools/python.svg", "/images/tools/laravel.svg"],
+    tech_stack: ["/images/tools/java.svg", "/images/tools/spring-boot.svg", "/images/tools/python.svg", "/images/tools/laravel.svg"],
     publishDate: "31 March  2025",
   },
   {
