@@ -165,17 +165,19 @@ export default function PortfolioDetailsPage() {
                       <div className="col-span-2 flex items-center">
                         <span className="mr-2">:</span>
                         {portfolio.tech_stack.map((tech, index) => (
-                          <div className="aos-init aos-animate mx-2 flex h-[70px] w-[70px] flex-col items-center justify-center rounded-xl bg-primary bg-opacity-10 p-2 text-primary">
-                            <Image
-                              key={index}
-                              src={tech}
-                              alt={`Tech Stack ${index + 1}`}
-                              width={100}
-                              height={100}
-                              className="img-detail-portfolio"
-                            />
-                          </div>
-                        ))}
+                        <div
+                          key={index} // Tambahkan key di sini
+                          className="aos-init aos-animate mx-2 flex h-[70px] w-[70px] flex-col items-center justify-center rounded-xl bg-primary bg-opacity-10 p-2 text-primary"
+                        >
+                          <Image
+                            src={tech}
+                            alt={`Tech Stack ${index + 1}`}
+                            width={100}
+                            height={100}
+                            className="img-detail-portfolio"
+                          />
+                        </div>
+                      ))}
                       </div>
                     </div>
                   </div>
