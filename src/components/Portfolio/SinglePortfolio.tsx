@@ -7,16 +7,19 @@ const SinglePortfolio = ({ portfolio }: { portfolio: Portfolio }) => {
   return (
     <>
       <div className="group relative overflow-hidden bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark rounded-lg">
-        <Link
-          href="/"
+        {/* <Link
+          href="/blog-details"
           className="relative block aspect-[37/22] w-full"
         >
+          <Image src={image} alt="image" className="object-cover" fill />
+        </Link> */}
+        <Link href={`/portfolio-details?id=${portfolio.id}`} className="relative block aspect-[37/22] w-full">
           <Image src={image} alt="image" className="object-cover" fill />
         </Link>
         <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
           <h3>
             <Link
-              href="/"
+              href={`/portfolio-details?id=${portfolio.id}`}
               className="mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl"
             >
               {title}
@@ -27,10 +30,8 @@ const SinglePortfolio = ({ portfolio }: { portfolio: Portfolio }) => {
           </p>
           <div className="w-full text-center flex items-center">
               <div className="w-full">
-                <Link href="/" className="rounded-xl p-5 bg-primary bg-opacity-10 text-primary text-sm">Read More</Link>
-                {/* <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                  {author.name}
-                </h4> */}
+                {/* <Link href={`/portfolio-details/${portfolio.id}`} className="rounded-xl p-5 bg-primary bg-opacity-10 text-primary text-sm">Read More</Link> */}
+                <Link href={`/portfolio-details?id=${portfolio.id}`} className="rounded-xl p-5 bg-primary bg-opacity-10 text-primary text-sm">Read More</Link>
               </div>
             </div>
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">

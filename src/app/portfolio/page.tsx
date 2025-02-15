@@ -11,15 +11,6 @@ export const metadata: Metadata = {
 const Portfolio = () => {
   return (
     <>
-      {/* <Breadcrumb
-        pageName="Portfolio"
-        description="Client trust is key for us in collaborating and realizing their initiatives."
-        breadcrumbLinks={[
-          { name: "Home", url: "/" },
-          { name: "Portfolio", url: "/portfolio" },
-        ]}
-      /> */}
-
       <section className="pb-[120px] pt-[150px]">
         <div className="container mb-20">
           <div className="w-full h-full grid grid-cols-1 text-center justify-center mb-16">
