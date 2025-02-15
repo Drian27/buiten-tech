@@ -35,16 +35,6 @@ export default function PortfolioDetailsPage() {
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mb-5 mr-10 flex items-center">
-                      <div className="mr-4">
-                        <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                          <Image
-                            src="/images/blog/author-02.png"
-                            alt="author"
-                            width={40}
-                            height={40}
-                          />
-                        </div>
-                      </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
                           By <span>Buiten Technology</span>
