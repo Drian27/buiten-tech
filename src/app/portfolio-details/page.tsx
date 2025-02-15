@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 // import { Metadata } from "next";
 import { useSearchParams } from "next/navigation";
@@ -8,19 +8,19 @@ import Image from "next/image";
 // const searchParams = useSearchParams();export const metadata: Metadata = {
 //   title: "Buiten - Portfolio Details",
 //   description: "This is Portfolio Details Page for Startup Nextjs Template",
-//   // other metadata 
+//   // other metadata
 // };
 
-export default function PortfolioDetailsPage () {
-    const searchParams = useSearchParams();
-    const id = searchParams.get("id");
+export default function PortfolioDetailsPage() {
+  const searchParams = useSearchParams();
+  const id = searchParams.get("id");
 
-    // Konversi id ke number agar cocok dengan data
-    const portfolio = portfolioData.find((item) => item.id === Number(id));
+  // Konversi id ke number agar cocok dengan data
+  const portfolio = portfolioData.find((item) => item.id === Number(id));
 
-    if (!portfolio) {
-      return <p>Portfolio tidak ditemukan</p>;
-    }
+  if (!portfolio) {
+    return <p>Portfolio tidak ditemukan</p>;
+  }
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
@@ -36,11 +36,12 @@ export default function PortfolioDetailsPage () {
                     <div className="mb-5 mr-10 flex items-center">
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                          {/* <Image
+                          <Image
                             src="/images/blog/author-02.png"
                             alt="author"
-                            fill
-                          /> */}
+                            width={40}
+                            height={40}
+                          />
                         </div>
                       </div>
                       <div className="w-full">
@@ -122,15 +123,15 @@ export default function PortfolioDetailsPage () {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src={portfolio.image} 
+                        src={portfolio.image}
                         alt={portfolio.title}
                         fill
                         className="object-center"
                       />
                     </div>
                   </div>
-                  <div  className="mb-10">
-                    <h3 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white lg:text-2xl sm:leading-tight">
+                  <div className="mb-10">
+                    <h3 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white sm:leading-tight lg:text-2xl">
                       Description
                     </h3>
                     <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -138,15 +139,15 @@ export default function PortfolioDetailsPage () {
                     </p>
                   </div>
                   <div
-                    className="rounded-xl p-5 bg-primary bg-opacity-10 text-primary aos-init aos-animate mb-10"
+                    className="aos-init aos-animate mb-10 rounded-xl bg-primary bg-opacity-10 p-5 text-primary"
                     data-aos="fade-up"
                     data-aos-delay="400"
                   >
-                    <h3 className="text-center mb-3 text-3xl font-bold leading-tight text-black dark:text-white lg:text-2xl sm:leading-tight">
+                    <h3 className="mb-3 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:leading-tight lg:text-2xl">
                       Project Information
                     </h3>
 
-                    <div className="grid grid-cols-3 gap-2 text-white text-base font-medium sm:text-lg lg:text-base xl:text-lg">
+                    <div className="grid grid-cols-3 gap-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
                       <p>Name</p>
                       <p className="col-span-2">: {portfolio.name}</p>
 
@@ -162,18 +163,18 @@ export default function PortfolioDetailsPage () {
                       <p>Tech Stack</p>
                       <div className="col-span-2 flex items-center">
                         <span className="mr-2">:</span>
-                          {portfolio.tech_stack.map((tech, index) => (
-                            <div className="flex h-[70px] w-[70px] flex-col items-center justify-center rounded-xl p-2 bg-primary bg-opacity-10 text-primary aos-init aos-animate mx-2">
-                              <Image
-                                key={index}
-                                src={tech}
-                                alt={`Tech Stack ${index + 1}`}
-                                width={100}
-                                height={100}
-                                className="img-detail-portfolio"
-                              />
-                            </div>
-                          ))}
+                        {portfolio.tech_stack.map((tech, index) => (
+                          <div className="aos-init aos-animate mx-2 flex h-[70px] w-[70px] flex-col items-center justify-center rounded-xl bg-primary bg-opacity-10 p-2 text-primary">
+                            <Image
+                              key={index}
+                              src={tech}
+                              alt={`Tech Stack ${index + 1}`}
+                              width={100}
+                              height={100}
+                              className="img-detail-portfolio"
+                            />
+                          </div>
+                        ))}
                       </div>
                     </div>
                   </div>
@@ -213,4 +214,4 @@ export default function PortfolioDetailsPage () {
       </section>
     </>
   );
-};
+}
