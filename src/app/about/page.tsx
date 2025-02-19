@@ -102,7 +102,9 @@ const AboutPage = () => {
                 </div>
               </div>
           </div>
+        </div>
 
+        <div className="container">
           <div className="-mx-4 flex flex-wrap items-center mt-20 mb-28">
             <div className="w-full px-4 lg:w-1/2">
               <div className="max-w-[470px]">
@@ -144,7 +146,9 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
+        </div>
 
+        <div className="bg-white dark:bg-gray-dark w-full h-auto">
           <div className="grid grid-cols-4 items-center gap-10 p-16 mb-28">
             <div className="card bg-white shadow-lg w-full h-[170px] rounded-lg p-14">
               <div className="card-body">
@@ -182,7 +186,9 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
+        </div>
 
+        <div className="container">
           <div className="grid grid-cols-1 justify-center text-center items-center mb-28">
             <div className="mb-10">
               <h1 className="text-white text-3xl font-semibold mb-3">Gallery</h1>
@@ -193,17 +199,18 @@ const AboutPage = () => {
               <Gallery />
             </div>
           </div>
+        </div>
 
+        <div className="container">
           <div className="grid grid-cols-1 justify-center text-center items-center mb-1">
             <h1 className="text-white text-3xl font-semibold mb-3">Our Partner</h1>
             <p className="text-white text-sm font-normal">Buiten Tech Partnership</p>
           </div>
-
         </div>
-          <div className="h-full w-full">
-            {/* Carousel Our Partner */}
-            <Carousel />
-          </div>
+        <div className="h-full w-full">
+          {/* Carousel Our Partner */}
+          <Carousel />
+        </div>
       </section>
 
       <AboutSectionOne />
