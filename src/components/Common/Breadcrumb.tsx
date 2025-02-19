@@ -14,9 +14,9 @@ const Breadcrumb = ({
       <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 md:w-8/12 lg:w-7/12">
-              <div className="mb-8 w-full md:mb-0 lg:mb-12">
-                <h1 className="mb-10 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight text-end">
+            <div className="w-full px-4">
+              <div className="mb-8 w-full md:mb-0 lg:mb-10">
+                <h1 className="mb-10 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight text-center">
                   {pageName}
                 </h1>
                 <p className="text-base font-medium leading-relaxed text-body-color">
@@ -24,9 +24,9 @@ const Breadcrumb = ({
                 </p>
               </div>
             </div>
-            <div className="w-full px-4 md:w-4/12 lg:w-5/12">
+            <div className="w-full px-4 ">
               <div className="text-end">
-                <ul className="flex items-center md:justify-end">
+                <ul className="flex items-center md:justify-center">
                 {breadcrumbLinks.map((link, index) => (
                   <li key={index} className="flex items-center">
                     <Link
