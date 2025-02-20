@@ -215,7 +215,7 @@ const AboutPage = () => {
               <div className="card-body">
                 <div className="grid w-full items-center text-center">
                   <h1 className="mb-2 text-4xl font-semibold text-black">
-                    456+
+                    400+
                   </h1>
                   <p className="font-normald text-sm text-[#777]">Projects</p>
                 </div>
@@ -226,7 +226,7 @@ const AboutPage = () => {
               <div className="card-body">
                 <div className="grid w-full items-center text-center">
                   <h1 className="mb-2 text-4xl font-semibold text-black">
-                    456+
+                    532+
                   </h1>
                   <p className="font-normald text-sm text-[#777]">Clients</p>
                 </div>
@@ -237,7 +237,7 @@ const AboutPage = () => {
               <div className="card-body">
                 <div className="grid w-full items-center text-center">
                   <h1 className="mb-2 text-4xl font-semibold text-black">
-                    456+
+                    121+
                   </h1>
                   <p className="font-normald text-sm text-[#777]">Awards</p>
                 </div>
@@ -248,7 +248,7 @@ const AboutPage = () => {
               <div className="card-body">
                 <div className="grid w-full items-center text-center">
                   <h1 className="mb-2 text-4xl font-semibold text-black">
-                    456+
+                    22+
                   </h1>
                   <p className="font-normald text-sm text-[#777]">Team</p>
                 </div>
