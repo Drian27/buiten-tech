@@ -1,7 +1,7 @@
-import Image from "next/image";
-import SectionTitle from "../Common/SectionTitle";
-import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
-import portfolioData from "@/components/Portfolio/portfolioData";
+// import Image from "next/image";
+// import SectionTitle from "../Common/SectionTitle";
+// import SinglePortfolio from "@/components/Portfolio/SinglePortfolio";
+// import portfolioData from "@/components/Portfolio/portfolioData";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
