@@ -14,8 +14,8 @@ const Carousel = () => {
   return (
     <div className="overflow-hidden w-full py-10">
       <motion.div
-        className="flex items-center space-x-16"
-        animate={{ x: ['0%', '-50%'] }}
+        className="flex items-center space-x-10"
+        animate={{ x: ['0%', '-100%'] }}
         transition={{
           repeat: Infinity,
           duration: 15,
