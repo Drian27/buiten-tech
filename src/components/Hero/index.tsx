@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FiveStars from "../star/FiveStars";
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
                 <h1 data-aos="fade-up" className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-5xl md:leading-tight">
                   Build Together With Buiten Tech
                 </h1>
-                <p data-aos="zoom-in" className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-[20px]">
+                <p data-aos="zoom-in" className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-[20px]">
                   Buiten Technology is a cutting-edge technology solutions
                   provider dedicated to empowering businesses with innovative
                   tools and services. Our comprehensive offerings include
@@ -24,6 +25,13 @@ const Hero = () => {
                   passion for excellence, Buiten Technology delivers scalable
                   and future-ready solutions for companies of all sizes.
                 </p>
+                <div className="flex items-center justify-center gap-3">
+                  <button className="w-[150px] h-[50px] rounded-full bg-primary px-5 py-2 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">Contact Us</button>
+                  <div className="mx-3">
+                    <FiveStars />
+                    <p className="text-base font-medium leading-relaxed text-white">Customer is very happy </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

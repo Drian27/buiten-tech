@@ -11,6 +11,21 @@
     font-family: "Inter", sans-serif;
   }
 
+  .margin-top-cs {
+    margin-top: 180px;
+  }
+
+  .content-text-about {
+    padding: 23px;
+    margin: 10px auto;
+  }
+
+  .hr-cs-about {
+    width: 60px;
+    height: 4px;
+    background-color: #fff;
+  }
+
   .img-content-hero {
     position: relative;
   }
