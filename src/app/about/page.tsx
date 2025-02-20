@@ -26,6 +26,8 @@ const AboutPage = () => {
       />
 
       <section className="">
+        
+
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center mt-20 mb-28">
               <div className="w-full px-4 lg:w-1/2">
