@@ -27,6 +27,39 @@ const AboutPage = () => {
 
       <section className="">
         <div className="container">
+          <div className="h-full w-full">
+            <div className="grid grid-cols-1 items-center justify-center gap-10 md:grid-cols-2 lg:grid-cols-2">
+              <div className="relative z-10 mb-8 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
+                <p>Tentang Agensi Kami</p>
+                <h1 className="mb-4 text-2xl font-bold !leading-tight text-black dark:text-white sm:text-2xl md:text-3xl">
+                  Simplify Business & Life
+                </h1>
+                <p className="mb-10 text-sm !leading-relaxed text-body-color md:text-lg lg:text-[16px]">
+                  Berdiri sejak 2020, Buiten adalah agensi yang
+                  berfokus pada pengembangan digital dan solusi teknologi
+                  inovatif. Kami berkomitmen untuk memberikan layanan yang
+                  handal, mutakhir, dan dirancang khusus untuk memenuhi kebutuhan
+                  bisnis pelanggan kami.
+                </p>
+              </div>
+              <div className="relative z-10 mb-8 rounded-lg bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
+                <p className="mb-10 text-sm !leading-relaxed text-body-color md:text-lg lg:text-[16px]">
+                  Dengan dukungan para profesional yang telah berpengalaman
+                  mengelola dan mengembangkan solusi IT di lingkungan, kami
+                  secara konsisten memberikan solusi digital terkini kepada
+                  bisnis dan masyarakat, khususnya di Indonesia, dan sedang
+                  membidik pasar mancanegara. Melanjutkan komitmen ini, Buiten
+                  Tech hadir sebagai mitra terpercaya dalam transformasi
+                  digital. Kami menggabungkan keahlian teknologi dengan inovasi
+                  kreatif untuk memberikan solusi yang tepat guna, membantu
+                  bisnis berkembang pesat di era digital yang terus berubah.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
           <div className="-mx-4 mb-28 mt-20 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <div
