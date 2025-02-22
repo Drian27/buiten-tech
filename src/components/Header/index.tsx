@@ -153,12 +153,11 @@ const Header = () => {
               </div>
             </div>
             <div className="flex items-center pr-16 lg:pr-0">
-                <div>
-                    <Link href="/contact" className="rounded bg-primary px-7 py-3 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                      Contact Us
-                    </Link>
-                    
-                </div>
+                {/* <div>
+                  <Link href="/contact" className="rounded bg-primary px-7 py-3 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    Contact Us
+                  </Link>
+                </div> */}
                 <div>
                   <ThemeToggler />
                 </div>
