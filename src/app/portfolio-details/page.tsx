@@ -29,20 +29,20 @@ function PortfolioDetails() {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h2 data-aos="fade-up" className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                   {portfolio.title}
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mb-5 mr-10 flex items-center">
                       <div className="w-full">
-                        <span className="mb-1 text-base font-medium text-body-color">
+                        <span data-aos="fade-up" data-aos-delay="300" className="mb-1 text-base font-medium text-body-color">
                           By <span>Buiten Technology</span>
                         </span>
                       </div>
                     </div>
                     <div className="mb-5 flex items-center">
-                      <p className="mr-5 flex items-center text-base font-medium text-body-color">
+                      <div data-aos="fade-up" data-aos-delay="500" className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="15"
@@ -62,8 +62,8 @@ function PortfolioDetails() {
                           </svg>
                         </span>
                         {portfolio.publishDate}
-                      </p>
-                      <p className="mr-5 flex items-center text-base font-medium text-body-color">
+                      </div>
+                      <div data-aos="fade-up" data-aos-delay="700" className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="18"
@@ -77,8 +77,8 @@ function PortfolioDetails() {
                           </svg>
                         </span>
                         50
-                      </p>
-                      <p className="flex items-center text-base font-medium text-body-color">
+                      </div>
+                      <div data-aos="fade-up" data-aos-delay="900" className="flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="20"
@@ -91,10 +91,10 @@ function PortfolioDetails() {
                           </svg>
                         </span>
                         35
-                      </p>
+                      </div>
                     </div>
                   </div>
-                  <div className="mb-5">
+                  <div data-aos="fade-up" data-aos-delay="1100" className="mb-5">
                     <a
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
@@ -104,7 +104,7 @@ function PortfolioDetails() {
                   </div>
                 </div>
                 <div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p data-aos="fade-up" data-aos-delay="1200" className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Welcome to Buiten Technology, your all-in-one solution for
                     seamless business management. Designed to simplify
                     operations, boost efficiency, and enhance security, our
@@ -112,7 +112,7 @@ function PortfolioDetails() {
                     digital age.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                    <div data-aos="zoom-in" className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
                         src={portfolio.image}
                         alt={portfolio.title}
@@ -122,23 +122,21 @@ function PortfolioDetails() {
                     </div>
                   </div>
                   <div className="mb-10">
-                    <h3 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white sm:leading-tight lg:text-2xl">
+                    <h3 data-aos="fade-up" data-aos-delay="300" className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white sm:leading-tight lg:text-2xl">
                       Description
                     </h3>
-                    <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    <p data-aos="fade-up" data-aos-delay="500" className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                       {portfolio.paragraph}
                     </p>
                   </div>
                   <div
                     className="aos-init aos-animate mb-10 rounded-xl bg-primary bg-opacity-10 p-5 text-primary"
-                    data-aos="fade-up"
-                    data-aos-delay="400"
                   >
-                    <h3 className="mb-3 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:leading-tight lg:text-2xl">
+                    <h3 data-aos="fade-up" data-aos-delay="700" className="mb-3 text-center text-3xl font-bold leading-tight text-black dark:text-white sm:leading-tight lg:text-2xl">
                       Project Information
                     </h3>
 
-                    <div className="grid grid-cols-3 gap-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
+                    <div data-aos="zoom-in" data-aos-delay="1200" className="grid grid-cols-3 gap-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
                       <p>Name</p>
                       <p className="col-span-2">: {portfolio.name}</p>
 

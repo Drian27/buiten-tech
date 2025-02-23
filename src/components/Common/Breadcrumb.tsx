@@ -15,7 +15,7 @@ const Breadcrumb = ({
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4">
-              <div className="mb-8 w-full md:mb-0 lg:mb-10">
+              <div className="mb-8 text-center w-full md:mb-0 lg:mb-10">
                 <h1 className="mb-10 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight text-center">
                   {pageName}
                 </h1>
@@ -24,7 +24,7 @@ const Breadcrumb = ({
                 </p>
               </div>
             </div>
-            <div className="w-full px-4 ">
+            {/* <div className="w-full px-4 ">
               <div className="text-end">
                 <ul className="flex items-center md:justify-center">
                 {breadcrumbLinks.map((link, index) => (
@@ -40,10 +40,10 @@ const Breadcrumb = ({
                     )}
                   </li>
                 ))}
-                  {/* <li className="text-base font-medium text-primary">{pageName}</li> */}
+                  <li className="text-base font-medium text-primary">{pageName}</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

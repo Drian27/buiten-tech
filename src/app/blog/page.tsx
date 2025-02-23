@@ -15,7 +15,7 @@ const Blog = () => {
     <>
     <Breadcrumb
         pageName="Blog"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Read our complete article to increase your insight"
         breadcrumbLinks={[
           { name: "Home", url: "/" },
           { name: "Blog", url: "/blog" },

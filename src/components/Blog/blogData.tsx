@@ -4,7 +4,7 @@ const blogData: blog[] = [
   {
     id: 1,
     title: "haikal",
-    paragraph:
+    description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/ibukota.png",
     author: {
@@ -12,13 +12,13 @@ const blogData: blog[] = [
       image: "/images/blog/.png",
       designation: "Ibu Kota Nusantara (IKN)",
     },
-    tags: ["Backend"],
-    publishDate: "2024",
+    tags: ["Backend Dashboard"],
+    publishDate: "21 January 2024",
   },
   {
     id: 2,
     title: "Photobooth System",
-    paragraph:
+    description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/pipper.png",
     author: {
@@ -26,13 +26,13 @@ const blogData: blog[] = [
       image: "/images/blog/author-02.png",
       designation: "PhotoBooth",
     },
-    tags: ["Frontend", "UI/UX"],
-    publishDate: "2025",
+    tags: ["System Photobooth"],
+    publishDate: "21 March 2025",
   },
   {
     id: 3,
     title: "Banhub Website",
-    paragraph:
+    description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/banhub.png",
     author: {
@@ -41,7 +41,7 @@ const blogData: blog[] = [
       designation: "Banhub Kalimantan",
     },
     tags: ["E-Commerce"],
-    publishDate: "2023",
+    publishDate: "21 October 2023",
   },
 ];
 export default blogData;

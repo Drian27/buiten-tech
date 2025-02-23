@@ -1,16 +1,30 @@
+"use client";
+
+
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
 
 import { Metadata } from "next";
+import { useSearchParams } from "next/navigation";
+import blogData from "@/components/Blog/blogData";
 
-export const metadata: Metadata = {
-  title: "Buiten - Blog Details",
-  description: "This is Blog Details Page for Startup Nextjs Template",
-  // other metadata
-};
+// export const metadata: Metadata = {
+//   title: "Buiten - Blog Details",
+//   description: "This is Blog Details Page for Startup Nextjs Template",
+// };
 
 const BlogDetailsPage = () => {
+  const searchParams = useSearchParams();
+  const id = searchParams.get("id");
+
+  // Konversi id ke number agar cocok dengan data
+  const blog = blogData.find((item) => item.id === Number(id));
+
+  if (!blog) {
+    return <p>Blog tidak ditemukan</p>;
+  }
+
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
@@ -18,29 +32,20 @@ const BlogDetailsPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  An extraordinary site that can help manage your business
+                <h2 data-aos="fade-up" className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                  {blog.title}
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mb-5 mr-10 flex items-center">
-                      <div className="mr-4">
-                        <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                          {/* <Image
-                            src="/images/blog/author-02.png"
-                            alt="author"
-                            fill
-                          /> */}
-                        </div>
-                      </div>
                       <div className="w-full">
-                        <span className="mb-1 text-base font-medium text-body-color">
+                        <span data-aos="fade-up" data-aos-delay="300" className="mb-1 text-base font-medium text-body-color">
                           By <span>Buiten Technology</span>
                         </span>
                       </div>
                     </div>
                     <div className="mb-5 flex items-center">
-                      <p className="mr-5 flex items-center text-base font-medium text-body-color">
+                      <div data-aos="fade-up" data-aos-delay="500" className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="15"
@@ -59,9 +64,9 @@ const BlogDetailsPage = () => {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        31 Jan 2025
-                      </p>
-                      <p className="mr-5 flex items-center text-base font-medium text-body-color">
+                        {blog.publishDate}
+                      </div>
+                      <div data-aos="fade-up" data-aos-delay="700" className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="18"
@@ -75,8 +80,8 @@ const BlogDetailsPage = () => {
                           </svg>
                         </span>
                         50
-                      </p>
-                      <p className="flex items-center text-base font-medium text-body-color">
+                      </div>
+                      <div data-aos="fade-up" data-aos-delay="900" className="flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
                             width="20"
@@ -89,20 +94,20 @@ const BlogDetailsPage = () => {
                           </svg>
                         </span>
                         35
-                      </p>
+                      </div>
                     </div>
                   </div>
-                  <div className="mb-5">
+                  <div data-aos="fade-up" data-aos-delay="1100" className="mb-5">
                     <a
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Design
+                      {blog.tags}
                     </a>
                   </div>
                 </div>
                 <div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  <p data-aos="fade-up" data-aos-delay="1200" className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Welcome to Buiten Technology, your all-in-one solution for
                     seamless business management. Designed to simplify
                     operations, boost efficiency, and enhance security, our
@@ -110,28 +115,19 @@ const BlogDetailsPage = () => {
                     digital age.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                    <div data-aos="zoom-in" className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
-                        alt="image"
+                        src={blog.image}
+                        alt={blog.title}
                         fill
                         className="object-cover object-center"
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    With intuitive tools and intelligent automation, helps you
-                    optimize workflow, manage resources efficiently, and stay
-                    ahead of the competition. Whether you’re a startup or an
-                    established enterprise, our scalable solutions adapt to your
-                    business needs, ensuring continuous growth and innovation.
-                    <strong className="text-primary dark:text-white">
-                      Buiten Technology
-                    </strong>
-                    Experience the future of business management with Buiten
-                    Technology—where innovation meets efficiency.
+                  <p data-aos="fade-up" className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    {blog.description}
                   </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  {/* <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Semper auctor neque vitae tempus quam pellentesque nec.
                     <span className="text-primary underline dark:text-white">
                       Amet dictum sit amet justo
@@ -161,9 +157,9 @@ const BlogDetailsPage = () => {
                       Top-Notch Security – Keep your business data safe with
                       cutting-edge security measures.
                     </li>
-                    {/* <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                       Ligula ullamcorper malesuada proin
-                    </li> */}
+                    </li>
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
@@ -339,7 +335,7 @@ const BlogDetailsPage = () => {
                         <SharePost />
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
