@@ -1,24 +1,16 @@
 "use client";
 
-
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
 
-import { Metadata } from "next";
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import blogData from "@/components/Blog/blogData";
 
-// export const metadata: Metadata = {
-//   title: "Buiten - Blog Details",
-//   description: "This is Blog Details Page for Startup Nextjs Template",
-// };
-
-const BlogDetailsPage = () => {
+const BlogDetails = () => {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
-
-  // Konversi id ke number agar cocok dengan data
   const blog = blogData.find((item) => item.id === Number(id));
 
   if (!blog) {
@@ -32,9 +24,12 @@ const BlogDetailsPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 data-aos="fade-up" className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  {blog.title}
-                </h2>
+              <h2
+                data-aos="fade-up"
+                className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight"
+              >
+                {blog.title}
+              </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mb-5 mr-10 flex items-center">
@@ -343,6 +338,14 @@ const BlogDetailsPage = () => {
         </div>
       </section>
     </>
+  );
+};
+
+const BlogDetailsPage = () => {
+  return (
+    <Suspense fallback={<p>Loading...</p>}>
+      <BlogDetails />
+    </Suspense>
   );
 };
 
