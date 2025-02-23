@@ -19,16 +19,15 @@ const Portfolio = () => {
               <p className="text-base font-medium leading-relaxed text-body-color">Client trust is key for us in collaborating and realizing their initiatives.</p>
             </div>
           </div>
-
-          <div className="-mx-4 flex flex-wrap justify-center mb-10">
+          <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mb-16 gap-8 lg:gap-10">
             {portfolioData.map((portfolio) => (
-              <div
-                key={portfolio.id}
-                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3 mb-10"
-              >
-                <SinglePortfolio portfolio={portfolio} />
-              </div>
-            ))}
+                <div
+                  key={portfolio.id}
+                  className="w-full lg:px-4 mb-10"
+                >
+                  <SinglePortfolio portfolio={portfolio} />
+                </div>
+              ))}
           </div>
           <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
             <div className="w-full px-4">

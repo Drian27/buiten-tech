@@ -1,9 +1,9 @@
-import { Blog } from "@/types/blog";
+import { blog } from "@/types/blog";
 
-const blogData: Blog[] = [
+const blogData: blog[] = [
   {
     id: 1,
-    title: "IKN Apps",
+    title: "haikal",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
     image: "/images/blog/ibukota.png",
@@ -12,7 +12,7 @@ const blogData: Blog[] = [
       image: "/images/blog/.png",
       designation: "Ibu Kota Nusantara (IKN)",
     },
-    tags: [""],
+    tags: ["Backend"],
     publishDate: "2024",
   },
   {
@@ -26,7 +26,7 @@ const blogData: Blog[] = [
       image: "/images/blog/author-02.png",
       designation: "PhotoBooth",
     },
-    tags: [""],
+    tags: ["Frontend", "UI/UX"],
     publishDate: "2025",
   },
   {
@@ -40,7 +40,7 @@ const blogData: Blog[] = [
       image: "/images/blog/author-03.png",
       designation: "Banhub Kalimantan",
     },
-    tags: [""],
+    tags: ["E-Commerce"],
     publishDate: "2023",
   },
 ];
