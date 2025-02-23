@@ -15,11 +15,11 @@ const Portfolio = () => {
         <div className="container mb-20">
           <div className="w-full h-full grid grid-cols-1 text-center justify-center mb-16">
             <div className="">
-              <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Portfolio</h1>
-              <p className="text-base font-medium leading-relaxed text-body-color">Client trust is key for us in collaborating and realizing their initiatives.</p>
+              <h1 data-aos="fade-up" data-aos-delay="300" className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Portfolio</h1>
+              <p data-aos="fade-up" data-aos-delay="500" className="text-base font-medium leading-relaxed text-body-color">Client trust is key for us in collaborating and realizing their initiatives.</p>
             </div>
           </div>
-          <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mb-16 gap-8 lg:gap-10">
+          <div data-aos="fade-up" data-aos-delay="800" className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mb-16 gap-8 lg:gap-10">
             {portfolioData.map((portfolio) => (
                 <div
                   key={portfolio.id}

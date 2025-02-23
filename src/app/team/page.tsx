@@ -21,7 +21,7 @@ const Team = () => {
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
-          <div className="-mx-4 mb-5 flex flex-wrap justify-center">
+          <div data-aos="fade-up" className="-mx-4 mb-5 flex flex-wrap justify-center">
             {teamData.map((blog) => (
               <div
                 key={blog.id}

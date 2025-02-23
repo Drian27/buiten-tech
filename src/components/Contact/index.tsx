@@ -11,7 +11,7 @@ const Contact = () => {
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="grid grid-cols-1 place-content-center gap-5 mb-10">
-          <h1 className="mb-5 text-sm font-bold text-center text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl !leading-relaxed">Grow Your Business with the Best Digital <br/> Solutions with Buiten Tech!</h1>
+          <h1 data-aos="fade-up" className="mb-5 text-sm font-bold text-center text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl lg:text-4xl !leading-relaxed">Grow Your Business with the Best Digital <br/> Solutions with Buiten Tech!</h1>
         </div>
         <div className="flex flex-wrap">
           <div className="w-full px-1 md:px-2 lg:px-4">
@@ -21,10 +21,10 @@ const Contact = () => {
               "
             >
                 <div className="w-full text-center">
-                  <h2 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
+                  <h2 data-aos="fade-up" data-aos-delay="500" className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                     Realize Digitalization with Buiten Tech!
                   </h2>
-                  <p className="mb-12 text-base font-medium text-body-color">
+                  <p data-aos="fade-up" data-aos-delay="800" className="mb-12 text-base font-medium text-body-color">
                     Fill out the following form and we will contact you soon!
                   </p>
                 </div>

@@ -15,6 +15,7 @@ const Gallery = () => {
       {galleryImages.map((image, index) => (
         <div
           key={index}
+          data-aos="fade-up" data-aos-delay="500"
           className="bg-white shadow-lg rounded-2xl border border-gray-200 p-3"
         >
           <div className="bg-gray-100 rounded-xl p-2">

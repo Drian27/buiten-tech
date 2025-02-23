@@ -62,7 +62,7 @@ const teamData: Team[] = [
     linkedin: "https://www.linkedin.com/in/agil-nurdiansah-275276219/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Handika Djati Dharma",
     paragraph:
       "",
