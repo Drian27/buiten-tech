@@ -3,11 +3,11 @@
 import { motion } from 'framer-motion';
 
 const items = [
-  '/images/logo/logo-pixel.png',
+  '/images/logo/pixel.png',
   '/images/logo/logo-piper.png',
   '/images/logo/logo-photobin.png',
-  '/images/logo/logo-buiten.png',
   '/images/logo/logo-klin.png',
+  // '/images/logo/logo-buiten.png',
 ];
 
 const Carousel = () => {
