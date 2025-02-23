@@ -23,7 +23,11 @@ const SingleBlog = ({ blog }: { blog: blog }) => {
             </Link>
           </h3>
           <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-            {description}
+            {
+              description.length > 200
+              ? `${description.slice(0, 200)}...`
+              : description
+            }
           </p>
           <div className="flex items-center justify-center">
             <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
