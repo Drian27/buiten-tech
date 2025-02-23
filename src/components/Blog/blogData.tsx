@@ -11,7 +11,7 @@ const blogData: blog[] = [
       image: "",
       designation: "",
     },
-    tags: ["Backend Dashboard"],
+    tags: ["Information / Technology"],
     publishDate: "15 February 2025",
   },
   {
@@ -24,7 +24,7 @@ const blogData: blog[] = [
       image: "",
       designation: "",
     },
-    tags: ["System Photobooth"],
+    tags: ["Information / Technology"],
     publishDate: "16 February 2025",
   },
   {
@@ -37,7 +37,7 @@ const blogData: blog[] = [
       image: "",
       designation: "",
     },
-    tags: ["E-Commerce"],
+    tags: ["Backend"],
     publishDate: "17 February 2025",
   },
   {
@@ -50,7 +50,7 @@ const blogData: blog[] = [
       image: "",
       designation: "",
     },
-    tags: ["E-Commerce"],
+    tags: ["Backend"],
     publishDate: "18 February 2025",
   },
   {
@@ -63,7 +63,7 @@ const blogData: blog[] = [
       image: "",
       designation: "",
     },
-    tags: ["E-Commerce"],
+    tags: ["Information / Technology"],
     publishDate: "19 February 2025",
   },
   {
@@ -76,7 +76,7 @@ const blogData: blog[] = [
       image: "",
       designation: "",
     },
-    tags: ["E-Commerce"],
+    tags: ["Information / Technology"],
     publishDate: "20 February 2025",
   },
 ];
