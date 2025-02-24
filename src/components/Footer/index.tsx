@@ -117,6 +117,11 @@ const Footer = () => {
                   Photobin.id
                 </Link>
               </li>
+              <li>
+                <Link href="/https://pixelversemoment.com" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                  pixelversemoment.com
+                </Link>
+              </li>
             </ul>
           </div>
 
