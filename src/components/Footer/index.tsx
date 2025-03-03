@@ -160,7 +160,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/https://pixelversemoment.com" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                <Link href="https://pixelversemoment.com" target="_blank" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
                   pixelversemoment.com
                 </Link>
               </li>
@@ -185,13 +185,21 @@ const Footer = () => {
           <div>
             <h2 className="mb-6 text-lg font-bold text-black dark:text-white">Cerita Kami</h2>
             <ul className="space-y-4">
-              {["Portfolio", "Social Media", "Blog"].map((story) => (
-                <li key={story}>
-                  <Link href="/" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
-                    {story}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/portfolio" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.instagram.com/buitentech.info" target="_blank" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                  Social Media
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -199,13 +207,21 @@ const Footer = () => {
           <div>
             <h2 className="mb-6 text-lg font-bold text-black dark:text-white">Hubungi</h2>
             <ul className="space-y-4">
-              {["+62 896-3823-3061", "Buiten.id", "Admin@Buiten.com"].map((contact, index) => (
-                <li key={index}>
-                  <Link href={index === 0 ? "/contact" : "/"} className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
-                    {contact}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="https://wa.me/6289638233061" target="_blank" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                  +62 896-3823-3061
+                </Link>
+              </li>
+              <li>
+                <Link href="https://buitentech.co.id" target="_blank" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                  Buiten.co.id
+                </Link>
+              </li>
+              <li>
+                <Link href="mailto:infobuitentech@gmail.com" target="_blank" className="text-base text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                  infobuitentech@gmail.com
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
